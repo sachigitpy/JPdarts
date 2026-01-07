@@ -32,28 +32,33 @@
       cursor: pointer;
     }
 
-    button:active {
-      transform: scale(0.98);
-    }
+    button:active { transform: scale(0.98); }
 
     .result {
       margin-top: 16px;
       text-align: center;
       font-size: 1rem;
     }
+
+    #map { height: 400px; margin-top: 16px; border-radius: 12px; }
   </style>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="leaflet.css" />
+
+  <!-- Leaflet JS -->
+  <script src="leaflet.js"></script>
+
 </head>
 
 <body>
-
   <h1>🎯 ダーツの旅 in 日本</h1>
 
   <button id="throwBtn">ダーツを投げる</button>
 
-  <div class="result" id="result">
-    <!-- 結果表示エリア -->
-  </div>
-  <script src="script.js"></script>
+  <div class="result" id="result"></div>
+  <div id="map"></div>
 
+  <script src="script.js"></script>
 </body>
 </html>
