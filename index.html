@@ -14,11 +14,7 @@
       color: #222;
     }
 
-    h1 {
-      font-size: 1.2rem;
-      margin: 0 0 12px 0;
-      text-align: center;
-    }
+    h1 { font-size: 1.2rem; margin: 0 0 12px 0; text-align: center; }
 
     button {
       width: 100%;
@@ -34,28 +30,19 @@
 
     button:active { transform: scale(0.98); }
 
-    .result {
-      margin-top: 16px;
-      text-align: center;
-      font-size: 1rem;
-    }
+    .result { margin-top: 16px; text-align: center; font-size: 1rem; }
 
     #map { height: 400px; margin-top: 16px; border-radius: 12px; }
   </style>
 
-  <!-- Leaflet CSS -->
-  <link rel="stylesheet" href="leaflet.css" />
-
-  <!-- Leaflet JS -->
-  <script src="leaflet.js"></script>
-
+  <!-- ローカル Leaflet -->
+  <link rel="stylesheet" href="images/leaflet.css" />
+  <script src="images/leaflet.js"></script>
 </head>
 
 <body>
   <h1>🎯 ダーツの旅 in 日本</h1>
-
   <button id="throwBtn">ダーツを投げる</button>
-
   <div class="result" id="result"></div>
   <div id="map"></div>
 
