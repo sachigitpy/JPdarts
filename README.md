@@ -4,5 +4,5 @@
 ## 使い方
 ーボタンを押すと都道府県がひとつ選ばれます
 ## 技術
-ーpython
-ーStreamlit
+ーhtml,css
+ーJavaScript
